@@ -1,0 +1,90 @@
+/* Chatbot container */
+body{
+    font-family: "Poppins";
+    background-color:rgb(50, 45, 45);
+}
+.chatbot_sec {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation bar */
+.nav {
+    display: flex;
+    color: aliceblue;
+    gap: 20px;
+    padding: 20px 0px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Bot image */
+.Bot_img img {
+    border-radius: 50%;
+}
+
+/* Chat container scrolling behavior */
+.chats {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; /* Reverse the message order */
+    max-height: calc(100% - 160px); /* Adjust as needed, subtracting the header and input heights */
+    overflow-y: scroll;
+    flex-grow: 1;
+    height: 37rem;
+    padding-bottom: 20px; /* Add some padding at the bottom to prevent content from being hidden by the send button */
+}
+
+/* Message container */
+.message-container {
+    display: flex;
+    justify-content: flex-end; /* User messages on the right */
+    margin: 8px;
+}
+
+/* User chat message styles */
+.chat_end {
+    max-width: 70%;
+    background-color: rgba(0, 67, 233, 255);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto; /* Push user messages to the right */
+}
+
+/* Bot chat message styles */
+.chat_begin {
+    max-width: 70%;
+    background-color: rgba(0, 67, 233, 255);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: auto; /* Push bot messages to the left */
+}
+
+/* Input field and Send button styles */
+.footer .input-container {
+    display: flex;
+    justify-content: space-between; /* Distribute items at both ends */
+    align-items: center;
+    padding: 0 20px; /* Add some padding to align with the chat container */
+}
+
+.footer input {
+    flex: 1;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.footer button {
+    margin: 10px;
+    width: 6rem;
+    height: 4rem;
+}
+.footer button i{
+    font-size: xx-large;
+}
+

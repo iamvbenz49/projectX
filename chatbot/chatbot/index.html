@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/99d32e0d8d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Chatbot</title>
+</head>
+<body>
+    <div class="chatbot_sec">
+        <!-- Your chatbot UI here -->
+        <div class="nav">
+            <!-- <div class="Bot_img"><img src="OIP (2).jpg" height="50px" width="50px"></div> -->
+            <div class="bot_head"><h1>Physics Bot</h1><p>Online</p></div>
+        </div>
+        <div class="chats"> <!-- This is the container for chat messages -->
+            <!-- Chat messages will be added here -->
+        </div>
+        <div class="footer">
+            <div class="input-container">
+                <input id="textInput" name="textInput" type="text" placeholder="Enter your message">
+                <button id="sendButton"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- {% if answer %}
+    <h2>Response:</h2>
+    <p>{{ answer }}</p>
+    {% endif %} -->
+    <script src="script.js"></script>
+</body>
+</html>
