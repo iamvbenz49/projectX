@@ -1,0 +1,104 @@
+body {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    background-color:#7b6ada; /* Set the background color to white */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1200px;
+    max-height: 30rem;
+    margin: 0 auto;
+    margin-top: 12rem;
+    padding: 20px;
+    background-color: white; /* Set the background color to white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #6a5b9e; /* Set primary color to #6a5b9e */
+}
+
+main {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question-text p {
+    font-size: 18px;
+    color: #333;
+}
+
+.options ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.options input[type="radio"] {
+    margin-right: 10px;
+}
+
+.options label {
+    color: #333;
+}
+/* Style the Next button */
+#next-button, #submit-button {
+    background-color: #6a5b9e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#next-button:hover, #submit-button:hover {
+    background-color: #564a89;
+}
+
+/* Style the Submit button differently if needed */
+#submit-button {
+    background-color: #ff6600; /* Change the color for the Submit button */
+}
+
+#submit-button:hover {
+    background-color: #ff5500;
+}
+
+/* Add more CSS rules as needed */
+/* ... Existing CSS ... */
+
+.container {
+    /* Other styles... */
+    max-height: 600px; /* Set a fixed max-height for the white box */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+
+.main {
+    /* Other styles... */
+    max-height: 400px; /* Set a max-height for the main content area within the white box */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+
+/* ... Existing CSS ... */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New Gen Tutors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/99d32e0d8d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="name">
+            <div class="greetings">
+                <h1 class="slide-from-left">
+                    Hello, Vijay Benz
+                </h1>
+            </div>
+        </div>
+        <div class="subjects">
+            <div class="each-subject" id="sub">
+                <i class="fa-solid fa-infinity"></i>
+                <h3>Mathematics</h3>
+            </div>
+            <div class="each-subject" id="sub">
+                <i class="fa-solid fa-bolt"></i>
+                <h3>Physics</h3>
+            </div>
+            <div class="each-subject" id="sub">
+                <i class="fa-solid fa-atom"></i>
+                <h3>Chemistry</h3>
+            </div>
+            <div class="each-subject" id="sub">
+                <i class="fa-solid fa-dna"></i>
+                <h3>Biology</h3>
+            </div>
+            <div class="each-subject" id="sub">
+                <i class="fa-solid fa-computer"></i>
+                <h3>Computer Science</h3>
+            </div>
+            <div class="each-subject" id="sub">
+                <i class="fa-solid fa-language"></i>
+                <h3>English</h3>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Get a reference to the subject div elements
+        const subjectDivs = document.querySelectorAll(".each-subject");
+        // Add click event listeners to each div
+        subjectDivs.forEach(function (subjectDiv) {
+            subjectDiv.addEventListener("click", function () {
+                // Replace with the actual URL of the content subject page
+                window.location.href = "../chapters/chapters.html";
+            });
+        });
+        // Repeat this pattern for other subjects
+    </script>
+    
+</body>
+</html>

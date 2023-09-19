@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(127, 108, 214, 0.986);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 70rem;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.team-box {
+    background-color: white;
+    padding: 30px; /* Increased padding for larger containers */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 10px;
+    width: 300px; /* Increased width for larger containers */
+}
+
+.team-member {
+    margin: 20px;
+}
+
+.profile-icon {
+    font-size: 64px; /* Increased font size for larger icons */
+    margin-bottom: 20px; /* Increased margin for larger icons */
+}
+
+h3 {
+    font-size: 24px; /* Increased font size for text */
+    margin: 0;
+}
+
+p {
+    font-size: 18px; /* Increased font size for text */
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 30px; /* Increased margin for social links */
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #0073e6;
+    font-size: 24px; /* Increased font size for social icons */
+    margin: 0 15px; /* Increased margin for social icons */
+}

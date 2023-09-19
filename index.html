@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Gen Tutor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/99d32e0d8d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="full_Section">
+        <!-- Nav Starts -->
+        <nav class="Nav">
+           
+            <div class="About">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Courses</li>
+                    <li><a href="teamMembers/index.html">team</a></li>
+                    <li><a href="login/login.html">Register Now!</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Nav Ends -->
+        <div class="box">
+            <center>
+                <i class="fas fa-rocket"></i>
+                <h1>NEW GEN TUTORS</h1>
+                <hr>
+                <h4>THE LEARNING PLATFORM</h4>
+            </center>
+            <div class="login-button">
+                <button class="login-btn" onclick="location.href='teacherStudent/index.html'"><h5>Login</h5></button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Smooth scrolling script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

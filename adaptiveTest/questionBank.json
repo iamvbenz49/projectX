@@ -1,0 +1,186 @@
+{
+    "kinematicsQuestions": [
+      {
+        "question": "What is the formula for velocity?",
+        "options": ["A = ΔV / Δt", "B = Δd / Δt", "C = F / m", "D = m * g"],
+        "correctAnswer": 1,
+        "difficulty": "medium",
+        "topic": "Basic Kinematics"
+      },
+      {
+        "question": "What is the formula for acceleration?",
+        "options": ["A = ΔV / Δt", "B = Δd / Δt", "C = F / m", "D = m * g"],
+        "correctAnswer": 0,
+        "difficulty": "medium",
+        "topic": "Basic Kinematics"
+      },
+      {
+        "question": "What is the formula for displacement?",
+        "options": ["A = ΔV / Δt", "B = Δd / Δt", "C = F / m", "D = m * g"],
+        "correctAnswer": 1,
+        "difficulty": "medium",
+        "topic": "Basic Kinematics"
+      },
+      {
+        "question": "Which of the following represents the equation of motion for constant acceleration?",
+        "options": ["A = V - U", "B = V + U", "C = V^2 - U^2", "D = V / U"],
+        "correctAnswer": 2,
+        "difficulty": "medium",
+        "topic": "Equations of Motion"
+      },
+      {
+        "question": "What does 'Δ' represent in kinematic equations?",
+        "options": ["A. Final value", "B. Initial value", "C. Change in value", "D. Acceleration"],
+        "correctAnswer": 2,
+        "difficulty": "easy",
+        "topic": "Symbols in Kinematics"
+      },
+      {
+        "question": "A car is moving with a constant velocity of 25 m/s. What is its acceleration?",
+        "options": ["A. 25 m/s²", "B. 0 m/s²", "C. 50 m/s²", "D. 10 m/s²"],
+        "correctAnswer": 1,
+        "difficulty": "easy",
+        "topic": "Acceleration Calculation"
+      },
+      {
+        "question": "Which of the following is a scalar quantity in kinematics?",
+        "options": ["A. Velocity", "B. Displacement", "C. Acceleration", "D. Speed"],
+        "correctAnswer": 3,
+        "difficulty": "easy",
+        "topic": "Scalar and Vector Quantities"
+      },
+      {
+        "question": "An object falls freely under gravity. How does its velocity change with time?",
+        "options": ["A. Increases linearly", "B. Decreases linearly", "C. Remains constant", "D. Increases quadratically"],
+        "correctAnswer": 0,
+        "difficulty": "medium",
+        "topic": "Free Fall"
+      },
+      {
+        "question": "What is the acceleration due to gravity on Earth?",
+        "options": ["A. 9.8 m/s²", "B. 5.0 m/s²", "C. 2.5 m/s²", "D. 10.0 m/s²"],
+        "correctAnswer": 0,
+        "difficulty": "easy",
+        "topic": "Gravitational Acceleration"
+      },
+      {
+        "question": "If an object is in free fall, what is its acceleration?",
+        "options": ["A. 0 m/s²", "B. 5 m/s²", "C. 9.8 m/s²", "D. 1 m/s²"],
+        "correctAnswer": 2,
+        "difficulty": "easy",
+        "topic": "Free Fall"
+      },
+      {
+        "question": "In kinematics, what does the term 'inertia' refer to?",
+        "options": ["A. Resistance to motion", "B. Change in velocity", "C. Gravitational force", "D. Speed"],
+        "correctAnswer": 0,
+        "difficulty": "hard",
+        "topic": "Inertia"
+      },
+      {
+        "question": "What is the escape velocity from Earth's surface?",
+        "options": ["A. 11.2 km/s", "B. 9.8 m/s²", "C. 3.0 x 10^8 m/s", "D. 42.2 m/s"],
+        "correctAnswer": 0,
+        "difficulty": "hard",
+        "topic": "Escape Velocity"
+      },
+      {
+        "question": "What is terminal velocity in the context of free fall?",
+        "options": ["A. Maximum initial velocity", "B. Final velocity before impact", "C. The velocity at which air resistance balances gravitational force", "D. Zero velocity"],
+        "correctAnswer": 2,
+        "difficulty": "hard",
+        "topic": "Terminal Velocity"
+      },
+      {
+        "question": "What is the formula for velocity?",
+        "options": ["A = ΔV / Δt", "B = Δd / Δt", "C = F / m", "D = m * g"],
+        "correctAnswer": 1,
+        "difficulty": "medium",
+        "topic": "Basic Kinematics"
+      },
+      {
+        "question": "What is the formula for acceleration?",
+        "options": ["A = ΔV / Δt", "B = Δd / Δt", "C = F / m", "D = m * g"],
+        "correctAnswer": 0,
+        "difficulty": "medium",
+        "topic": "Basic Kinematics"
+      },
+      {
+        "question": "What is the formula for displacement?",
+        "options": ["A = ΔV / Δt", "B = Δd / Δt", "C = F / m", "D = m * g"],
+        "correctAnswer": 1,
+        "difficulty": "medium",
+        "topic": "Basic Kinematics"
+      },
+      {
+        "question": "Which of the following represents the equation of motion for constant acceleration?",
+        "options": ["A = V - U", "B = V + U", "C = V^2 - U^2", "D = V / U"],
+        "correctAnswer": 2,
+        "difficulty": "medium",
+        "topic": "Equations of Motion"
+      },
+      {
+        "question": "What does 'Δ' represent in kinematic equations?",
+        "options": ["A. Final value", "B. Initial value", "C. Change in value", "D. Acceleration"],
+        "correctAnswer": 2,
+        "difficulty": "easy",
+        "topic": "Symbols in Kinematics"
+      },
+      {
+        "question": "A car is moving with a constant velocity of 25 m/s. What is its acceleration?",
+        "options": ["A. 25 m/s²", "B. 0 m/s²", "C. 50 m/s²", "D. 10 m/s²"],
+        "correctAnswer": 1,
+        "difficulty": "easy",
+        "topic": "Acceleration Calculation"
+      },
+      {
+        "question": "Which of the following is a scalar quantity in kinematics?",
+        "options": ["A. Velocity", "B. Displacement", "C. Acceleration", "D. Speed"],
+        "correctAnswer": 3,
+        "difficulty": "easy",
+        "topic": "Scalar and Vector Quantities"
+      },
+      {
+        "question": "An object falls freely under gravity. How does its velocity change with time?",
+        "options": ["A. Increases linearly", "B. Decreases linearly", "C. Remains constant", "D. Increases quadratically"],
+        "correctAnswer": 0,
+        "difficulty": "medium",
+        "topic": "Free Fall"
+      },
+      {
+        "question": "What is the acceleration due to gravity on Earth?",
+        "options": ["A. 9.8 m/s²", "B. 5.0 m/s²", "C. 2.5 m/s²", "D. 10.0 m/s²"],
+        "correctAnswer": 0,
+        "difficulty": "easy",
+        "topic": "Gravitational Acceleration"
+      },
+      {
+        "question": "If an object is in free fall, what is its acceleration?",
+        "options": ["A. 0 m/s²", "B. 5 m/s²", "C. 9.8 m/s²", "D. 1 m/s²"],
+        "correctAnswer": 2,
+        "difficulty": "easy",
+        "topic": "Free Fall"
+      },
+      {
+        "question": "In kinematics, what does the term 'inertia' refer to?",
+        "options": ["A. Resistance to motion", "B. Change in velocity", "C. Gravitational force", "D. Speed"],
+        "correctAnswer": 0,
+        "difficulty": "hard",
+        "topic": "Inertia"
+      },
+      {
+        "question": "What is the escape velocity from Earth's surface?",
+        "options": ["A. 11.2 km/s", "B. 9.8 m/s²", "C. 3.0 x 10^8 m/s", "D. 42.2 m/s"],
+        "correctAnswer": 0,
+        "difficulty": "hard",
+        "topic": "Escape Velocity"
+      },
+      {
+        "question": "What is terminal velocity in the context of free fall?",
+        "options": ["A. Maximum initial velocity", "B. Final velocity before impact", "C. The velocity at which air resistance balances gravitational force", "D. Zero velocity"],
+        "correctAnswer": 2,
+        "difficulty": "hard",
+        "topic": "Terminal Velocity"
+      }
+    ]
+}

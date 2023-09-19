@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New Gen Tutors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/99d32e0d8d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="name">
+            <div class="greetings">
+                <h1 class="slide-from-left">
+                    Physics
+                </h1>
+            </div>
+            <div class="bot">
+                <i class="fa-solid fa-robot"></i>
+            </div>
+        </div>
+        <div class="subjects">
+            <div class="each-subject">
+                <h3>Electrostatics</h3>
+            </div>
+            <div class="each-subject">
+                <h3>Current Electricity</h3>
+            </div>
+            <div class="each-subject">
+                <h3>Magnetism</h3>
+            </div>
+            <div class="each-subject">
+                <h3>Electromagnetic Induction</h3>
+            </div>
+            <div class="each-subject">
+                <h3>Electromagnetism</h3>
+            </div>
+            <div class="each-subject">
+                <h3>Fibre Optics</h3>
+            </div>
+            <div class="each-subject">
+                <h3>Wave Optics</h3>
+            </div>
+            <div class="each-subject">
+                <h3>Nuclear Physics</h3>
+            </div>
+            <div class="each-subject">
+                <h3>Semiconductors</h3>
+            </div>
+            <div class="each-subject">
+                <h3>Communication</h3>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Get a reference to all the .each-subject elements
+        const subjectDivs = document.querySelectorAll(".each-subject");
+
+        // Add click event listeners to each .each-subject element
+        subjectDivs.forEach(function (subjectDiv) {
+            subjectDiv.addEventListener("click", function () {
+                // Replace with the actual URL of the content subject page
+                window.location.href = "../contentSection/index.html";
+            });
+        });
+        const bot = document.querySelectorAll(".bot");
+        // Add click event listeners to each div
+
+        subjectDiv.addEventListener("click", function () {
+            // Replace with the actual URL of the content subject page
+            window.location.href = "../chatbot/templates/index.html";
+        });
+    </script>
+</body>
+</html>

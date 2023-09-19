@@ -1,0 +1,76 @@
+body{
+    background-color: white;
+    font-family: "Poppins";
+}
+.main{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+i{
+    font-size: 14rem;
+    padding-top: 3rem;
+}
+h3{
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+.name{
+    display: flex;
+    margin-bottom: 7rem;
+    margin-left: 4rem;
+}
+.greetings{
+    font-size: 3rem;
+    /* padding: 8rem; */
+}
+.badge{
+    position: relative;
+    /* top:3rem; */
+    left:30rem;
+}
+.subjects{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 2rem;
+    margin-left:0.5rem;
+}
+.badge i{
+    color: gold;
+}
+.bot{
+    background-color: #7b6ada;
+    margin: 10px;
+    border: 2px black;
+    border-radius: 200px;
+    text-align: left;
+    margin: 2rem;
+}
+.each-subject{
+    width: 1000x;
+    height: 100px;
+    background-color: #7b6ada;
+    margin: 10px;
+    border-radius: 100px;
+    text-align: left;
+    margin: 2rem;
+}
+.each-subject:hover, .bot:hover {
+    background-color: #6a5b9e;
+    transform: scale(1.05); /* Scale up on hover */
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.slide-from-left {
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-100%); /* Initially off-screen to the left */
+    animation: slideIn 1s forwards; /* Apply the slide-in animation */
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0); /* Slide in to the center */
+    }
+}

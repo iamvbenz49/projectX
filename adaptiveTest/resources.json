@@ -1,0 +1,101 @@
+{
+    "resources": {
+      "Basic Kinematics": [
+        {
+          "name": "Resource 1",
+          "link": "https://example.com/resource1"
+        },
+        {
+          "name": "Resource 2",
+          "link": "https://example.com/resource2"
+        }
+      ],
+      "Equations of Motion": [
+        {
+          "name": "Equations of Motion Resource",
+          "link": "https://example.com/equations-of-motion-resource"
+        },
+        {
+          "name": "Physics Classroom Equations",
+          "link": "https://www.physicsclassroom.com/class/1DKin/Lesson-6/Kinematic-Equations"
+        }
+      ],
+      "Symbols in Kinematics": [
+        {
+          "name": "Symbols in Kinematics Guide",
+          "link": "https://example.com/symbols-in-kinematics-guide"
+        }
+      ],
+      "Acceleration Calculation": [
+        {
+          "name": "Acceleration Calculation Tutorial",
+          "link": "https://example.com/acceleration-calculation-tutorial"
+        },
+        {
+          "name": "Khan Academy - Acceleration",
+          "link": "https://www.khanacademy.org/science/physics/one-dimensional-motion/acceleration-tutorial/a/what-are-speed-and-velocity"
+        }
+      ],
+      "Scalar and Vector Quantities": [
+        {
+          "name": "Scalar vs. Vector Quantities Explanation",
+          "link": "https://example.com/scalar-vs-vector-quantities-explanation"
+        },
+        {
+          "name": "Physics Classroom - Scalars and Vectors",
+          "link": "https://www.physicsclassroom.com/class/1DKin/Lesson-1/Scalars-and-Vectors"
+        }
+      ],
+      "Free Fall": [
+        {
+          "name": "Understanding Free Fall",
+          "link": "https://example.com/understanding-free-fall"
+        },
+        {
+          "name": "Khan Academy - Free Fall",
+          "link": "https://www.khanacademy.org/science/physics/one-dimensional-motion/kinematic-formulas/a/what-are-kinematic-formulas"
+        }
+      ],
+      "Gravitational Acceleration": [
+        {
+          "name": "Gravitational Acceleration Overview",
+          "link": "https://example.com/gravitational-acceleration-overview"
+        },
+        {
+          "name": "NASA - Gravity and Falling Objects",
+          "link": "https://www.grc.nasa.gov/www/k-12/airplane/falling.html"
+        }
+      ],
+      "Inertia": [
+        {
+          "name": "Inertia Explained",
+          "link": "https://example.com/inertia-explained"
+        },
+        {
+          "name": "Physics Classroom - Inertia",
+          "link": "https://www.physicsclassroom.com/class/newtlaws/Lesson-1/Newton-s-First-Law"
+        }
+      ],
+      "Escape Velocity": [
+        {
+          "name": "Escape Velocity Calculation",
+          "link": "https://example.com/escape-velocity-calculation"
+        },
+        {
+          "name": "Space.com - Escape Velocity",
+          "link": "https://www.space.com/42383-escape-velocity.html"
+        }
+      ],
+      "Terminal Velocity": [
+        {
+          "name": "Understanding Terminal Velocity",
+          "link": "https://example.com/understanding-terminal-velocity"
+        },
+        {
+          "name": "Physics LibreTexts - Terminal Velocity",
+          "link": "https://phys.libretexts.org/Courses/Westminster_College/WC%3A_Physics_1010/01%3A_Physics_1010_Text/03.2%3A_Newton%E2%80%99s_Laws_of_Motion/3.2A%3A_Terminal_Velocity"
+        }
+      ]
+    }
+  }
+  
